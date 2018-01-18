@@ -12,7 +12,7 @@ A little collection of proof of concepts to demonstrate the potential impact of 
 ├── CSRF
 │   └── csrf_no_redirect.html
 ├── LICENSE
-├── OPEN REDIRECT
+├── Open redirect
 │   ├── open_redirect_referrer.html
 │   └── open_redirect_sign_in_form.md
 ├── Other
