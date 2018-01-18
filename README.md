@@ -22,3 +22,33 @@ A little collection of proof of concepts to demonstrate the potential impact of 
     ├── pastejacking_reflected_xss_payload.html
     └── xss_hidden_input.html
 ```
+
+# ⚠ Legal Disclaimer
+
+This project is made for educational and ethical testing purposes only. Usage any of the proof of concepts found in this repository for attacking targets without prior mutual consent is illegal. Developers assume no liability and are not responsible for any misuse or damage caused by these proof of concepts.
+
+# Contributing
+
+Do you have a fun, creative and convincing proof of concept? Please feel free to submit a pull request and we will add it to this repository.
+
+### Using the issue tracker 💡
+
+The issue tracker is the preferred channel for bug reports and features requests.
+
+### Issues and labels 🏷
+
+The bug tracker utilizes several labels to help organize and identify issues.
+
+### Guidelines for bug reports 🐛
+
+Use the GitHub issue search — check if the issue has already been reported.
+
+# Donations
+
+If you would like to support my work, you can use any of the addresses below:
+
+**Liberapay:** https://liberapay.com/EdOverflow
+
+**Bitcoin:** `1E2fZRNrrkCKPnWpKZAsJzByBoyoBURADN`
+
+**Ethereum:** `0xe98FC23fB4A8762d700c0354979dA5Db6c29Acc3`
