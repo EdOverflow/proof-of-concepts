@@ -25,6 +25,14 @@ A little collection of proof of concepts to demonstrate the potential impact of 
     └── xss_password_manager_form.html
 ```
 
+# Setup
+
+Clone this repository to a website you use for testing purposes, publish everything, and you will be able to use all of the proof of concepts under the `/proof-of-concepts/` directory (e.g. `http://example.com/proof-of-concepts/pastejacking_reflected_xss_payload.html`).
+
+```
+$ git clone https://github.com/EdOverflow/proof-of-concepts.git
+```
+
 # ⚠ Legal Disclaimer
 
 This project is made for educational and ethical testing purposes only. Usage any of the proof of concepts found in this repository for attacking targets without prior mutual consent is illegal. Developers assume no liability and are not responsible for any misuse or damage caused by these proof of concepts.
