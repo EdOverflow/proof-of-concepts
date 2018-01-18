@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Open Redirect Referrer</title>
+	<style type="text/css">
+		h2 {
+			font-family: sans-serif;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		var elem=document.createElement("h2");
+		elem.innerText = "You were redirected to " + document.domain + " via an open redirect in " + document.referrer + ".";
+		document.body.appendChild(elem);
+	</script>
+</body>
+</html>
