@@ -11,6 +11,7 @@ A little collection of proof of concepts to demonstrate the potential impact of 
 .
 ├── CSRF
 │   └── csrf_no_redirect.html
+├── LICENSE
 ├── OPEN REDIRECT
 │   ├── open_redirect_referrer.html
 │   └── open_redirect_sign_in_form.md
@@ -20,7 +21,8 @@ A little collection of proof of concepts to demonstrate the potential impact of 
 ├── README.md
 └── XSS
     ├── pastejacking_reflected_xss_payload.html
-    └── xss_hidden_input.html
+    ├── xss_hidden_input.html
+    └── xss_password_manager_form.html
 ```
 
 # ⚠ Legal Disclaimer
