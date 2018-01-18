@@ -10,8 +10,7 @@ A little collection of proof of concepts to demonstrate the potential impact of 
 ```
 .
 ├── CSRF
-│   ├── csrf_page.html
-│   └── csrf_payload.html
+│   └── csrf_no_redirect.html
 ├── Other
 │   ├── reverse_tabnabbing.html
 │   └── subdomain_takeover.html
