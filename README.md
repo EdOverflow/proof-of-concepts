@@ -9,10 +9,14 @@ A little collection of proof of concepts to demonstrate the potential impact of 
 
 ```
 .
+├── CSRF
+│   ├── csrf_page.html
+│   └── csrf_payload.html
 ├── Other
 │   ├── reverse_tabnabbing.html
 │   └── subdomain_takeover.html
 ├── README.md
 └── XSS
+    ├── pastejacking_reflected_xss_payload.html
     └── xss_hidden_input.html
 ```
