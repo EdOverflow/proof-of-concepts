@@ -5,6 +5,8 @@ A little collection of fun and creative proof of concepts to demonstrate the pot
 ![](https://user-images.githubusercontent.com/18099289/35099892-f9241f74-fc59-11e7-98f7-d5cb5f13c313.png)
 *Image courtesy of [Hackaday](https://hackaday.com/2017/08/14/bibles-you-should-read-poc-gtfo/)*
 
+<a href="https://www.buymeacoffee.com/edoverflow" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 # Contents
 
 ```
@@ -52,13 +54,3 @@ The bug tracker utilizes several labels to help organize and identify issues.
 ### Guidelines for bug reports 🐛
 
 Use the GitHub issue search — check if the issue has already been reported.
-
-# Donations
-
-If you would like to support my work, you can use any of the addresses below:
-
-**Liberapay:** https://liberapay.com/EdOverflow
-
-**Bitcoin:** `1E2fZRNrrkCKPnWpKZAsJzByBoyoBURADN`
-
-**Ethereum:** `0xe98FC23fB4A8762d700c0354979dA5Db6c29Acc3`
